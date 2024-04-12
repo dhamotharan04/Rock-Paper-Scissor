@@ -1,0 +1,45 @@
+body {
+        background-color: rgb(19, 19, 19);
+        color: white;
+        text-align: center;
+      }
+      .title{
+        font-size: 30px;
+        font-family: Arial ;
+      }
+      button{
+        background-color: transparent;
+        border: none;
+        border: 2px white solid;
+        border-radius: 50%;
+        padding: 20px;
+        margin-right:10px;
+      }
+      img{
+        height: 50px;
+        background-color:transparent;
+      }
+      .reset,.auto-play-button{
+        background-color: white;
+        border: none;
+        border-radius: 0;
+        padding: 8px 15px;
+        font-size: 15px;
+        cursor: pointer;
+      }
+      .js-result{
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 50px;
+      }
+      .js-score{
+        margin-top: 60px;
+
+      }
+            .js-reset-yes,
+            .js-reset-no {
+              background-color: white;
+              color: rgb(13, 12, 12);
+              border-radius: 0;
+              padding: 3px 10px;
+            }
